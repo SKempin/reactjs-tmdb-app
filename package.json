@@ -1,0 +1,34 @@
+{
+  "name": "reactjs-tmdb",
+  "version": "1.0.0",
+  "description": "ReactJS app",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^2.2.4",
+    "numeral": "^1.5.3",
+    "react-dom": "^15.3.1",
+    "react": "^15.3.1",
+    "typeahead.js": "^0.11.1",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://skempin@github.com/SKempin/reactjs-themoviedb-app.git"
+  },
+  "keywords": [
+    "reactjs",
+    "react",
+    "javascript"
+  ],
+  "author": "stephen kempin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SKempin/reactjs-themoviedb-app/issues"
+  },
+  "homepage": "https://github.com/SKempin/reactjs-themoviedb-app#readme"
+}
