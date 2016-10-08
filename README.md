@@ -1,1 +1,1 @@
-# reactjs-themoviedb-app
+# ReactJS TMDB App
