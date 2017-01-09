@@ -1,0 +1,90 @@
+/* card */
+.cardcont {
+    background:rgba(0, 0, 0, 0.85);
+    border-radius: 3px;
+}
+
+/* poster */
+.poster-container {
+  .poster {
+    width: 100%;
+    border-radius: 0 0 3px 3px;
+  }
+}
+
+/* meta data */
+.meta-data-container {
+  padding: 15px;
+  color: $lightGrey;
+
+  h1 {
+    font-family: $lato;
+    font-weight: bold;
+    text-transform: uppercase;;
+  }
+
+  .additional-details {
+    margin: 35px 0 20px;
+    font-family: $oswald;
+
+    .genre-list {
+      display: block;
+      color: $limeGreen;
+      font-size: 1.4em;
+    }
+
+    .production-list {
+      display: block;
+      margin-bottom: 20px;
+    }
+
+    .release-details {
+      div {
+        &:nth-child(n+3) {
+          margin-top: 15px;
+        }
+      }
+    }
+  }
+
+  .meta-data {
+    color: $limeGreen;
+    display: block;
+    font-size: 1.6em;
+    line-height: 1.1em;
+  }
+}
+
+.tagline {
+  color: $limeGreen;
+  display: block;
+  font-family: $oswald;
+  font-size: 1.3em;
+}
+
+
+/* Breakpoints */
+
+// sm up
+@include media-breakpoint-up(sm) {
+  /* meta data */
+  .meta-data-container {
+    padding: 25px;
+  }
+}
+// END sm up
+
+// md up
+@include media-breakpoint-up(md) {
+  /* poster */
+  .poster-container {
+    .poster {
+      border-radius: 3px 0 0 3px;
+    }
+  }
+  /* meta data */
+  .meta-data-container {
+    padding: 25px;
+  }
+}
+// END sm up

@@ -1,0 +1,27 @@
+/* footer */
+
+footer {
+  padding: 30px 0;
+  float: left;
+
+  font-size: 0.9em;
+  text-align: center;;
+  width: 100%;
+  text-shadow: 1px 1px 1px black;
+  span {
+    display: block;
+    padding: 0 0 10px;
+    i {
+      margin-right: 5px;
+    }
+  }
+  a {
+    color: darken($midGrey, 30);
+    &:hover {
+      color:$limeGreen;
+      // animation: moveinUp ease-in 1.4s;
+      // animation: fadein ease-out 1.4s;
+
+    }
+  }
+}

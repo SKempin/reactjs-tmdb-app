@@ -1,0 +1,14 @@
+// bootstrap
+$icon-font-path: "/fonts/bootstrap/";
+@import "bootstrap/scss/bootstrap.scss";
+
+// helpers
+@import "helpers/_variables.scss";
+@import "helpers/_animations.scss";
+
+// layout
+@import 'layout/_body';
+@import 'layout/_logo';
+@import 'layout/_search';
+@import 'layout/_card';
+@import 'layout/_footer';

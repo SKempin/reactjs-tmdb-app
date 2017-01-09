@@ -1,0 +1,83 @@
+/* search */
+
+// container
+.search-container{
+  margin: 30px 0;
+  .searchbox {
+    label {
+      width: 100%;
+      position: relative;
+
+      &:before {
+            color: $midGrey;
+            content:"\f4a4";
+            font-family: $Ionicons;
+            position: absolute;
+            font-weight:lighter;
+            bottom: 2px;
+            left: 0;
+            font-size: 22px;
+      }
+    }
+    // main input
+    .typeahead, .twitter-typeahead {
+      width: 100%; // full width input search
+      background: none;
+      border-bottom: solid 1px white;
+            // animation: fadein ease-out 1.4s;
+
+      .form-control {
+        animation: fadein ease-in 0.8s;
+        border:none;
+        // &:focus {
+        //   border: solid 1px $limeGreen;
+        //   opacity: 0;
+        // }
+
+      }
+      .tt-input {
+          color: white;
+          padding-left: 30px;
+      }
+    }
+  }
+}
+
+// dropdown menu container
+.tt-dropdown-menu {
+    animation: fadein ease-out 0.8s;
+    min-width: 100%;
+    margin-top: 2px;
+    padding: 5px 0;
+    background: rgba(0, 0, 0, 0.85);
+    border-radius: 4px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    background-clip: padding-box;
+    color: $lightGrey;
+}
+
+// suggestions text
+.tt-suggestion {
+  padding: 3px 20px;
+  font-size: 18px;
+  line-height: 24px;
+  p {
+    margin: 5px 0; // suggestion list spacing
+  }
+  // hover styles
+  &:hover, &.tt-cursor {
+    color: $darkGrey;
+    background-color: $limeGreen;
+  }
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+
+// sm up
+@include media-breakpoint-up(sm) {
+    .searchbox {
+      margin-top: 8px;
+    }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "reactjs-TMDB",
+  "version": "0.0.1",
+  "dependencies": {
+    "jquery": "^2.1.3",
+    "typeahead.js": "^0.10.4",
+    "bootstrap": "v4.0.0-alpha.4"
+  }
+}

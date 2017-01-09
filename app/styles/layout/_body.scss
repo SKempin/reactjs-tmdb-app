@@ -1,0 +1,17 @@
+/* body */
+body {
+  background: black;
+  background-repeat: no-repeat;
+  font-family: $lato;
+}
+
+// outer-container for background image
+#outer-container {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0,0,0, 0.8) 15%,rgba(0,0,0, 0.2) 40%,rgba(0,0,0, 1) 90%);
+}
+
+#app  {
+  animation: fadein ease-out 1.4s;
+}

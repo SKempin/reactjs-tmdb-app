@@ -1,0 +1,34 @@
+@keyframes fadein {
+    from { opacity: 0; transform:translateY(10px)}
+    to   { opacity: 1; transform:translateY(0)}
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+// @keyframes moveinUp {
+//   from { transform: translateY(0)}
+//   to   { transform: translateY(10px)}
+// }
