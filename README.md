@@ -5,7 +5,7 @@ TMDb Movie Search is a responsive [ReactJS](http://facebook.github.io/react/inde
 ## Demo
 [TMDb Movie Search - Live DEMO] (https://skempin.github.io/reactjs-tmdb-app/)
 
-### Tools
+## Tools
 Key tools used in this ReactJS project are:
 
 * [ReactJS](http://facebook.github.io/react/index.html)
@@ -17,7 +17,7 @@ Key tools used in this ReactJS project are:
 * [Babel](https://babeljs.io/)
 * [Gulp](http://gulpjs.com/)
 
-### Installation
+## Installation
 [node.js](http://nodejs.org/download/) is required to get ``npm``.
 
 If you would like to download the code and try it for yourself:
@@ -27,8 +27,8 @@ If you would like to download the code and try it for yourself:
 3. Build project and launch: `gulp`
 4. Open your browser at: `http://localhost:9000`
 
-### Author
+## Author
 [Stephen Kempin] (http//:www.stephenkempin.co.uk)
 
-### License
+## License
 MIT
