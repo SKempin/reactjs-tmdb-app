@@ -28,7 +28,7 @@ If you would like to download the code and try it for yourself:
 4. Open your browser at: `http://localhost:9000`
 
 ## Author
-[Stephen Kempin] (http//:www.stephenkempin.co.uk)
+[Stephen Kempin] (http://www.stephenkempin.co.uk)
 
 ## License
 MIT
