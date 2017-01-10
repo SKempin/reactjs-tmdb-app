@@ -9,7 +9,7 @@ TMDb Movie Search is a responsive [ReactJS](http://facebook.github.io/react/inde
 Key tools used in this ReactJS project are:
 
 * [ReactJS](http://facebook.github.io/react/index.html)
-* [Typeahead](http://facebook.github.io/react/index.html)
+* [Typeahead.js](https://twitter.github.io/typeahead.js/)
 * [Bloodhound](https://github.com/twitter/typeahead.js/blob/master/doc/bloodhound.md)
 * [Bootstrap](http://getbootstrap.com/)
 * [SASS](http://sass-lang.com/)
