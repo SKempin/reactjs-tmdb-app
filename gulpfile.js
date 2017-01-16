@@ -108,6 +108,12 @@ gulp.task('minify:css', function() {
         .pipe($.size());
 });
 
+gulp.task('copy-docs', function() {
+    return gulp.src('dist/**/*')
+        .pipe(gulp.dest('docs/'))
+        .pipe($.size());
+});
+
 gulp.task('minify', ['minify:js', 'minify:css']);
 
 gulp.task('clean', del.bind(null, 'dist'));
@@ -118,7 +124,7 @@ gulp.task('clean-bundle', sync(['clean', 'bundle']));
 
 gulp.task('build', ['clean-bundle'], bundler.stop.bind(bundler));
 
-gulp.task('build:production', sync(['set-production', 'build', 'minify']));
+gulp.task('build:production', sync(['set-production', 'build', 'minify', 'copy-docs']));
 
 gulp.task('serve:production', sync(['build:production', 'serve']));
 
