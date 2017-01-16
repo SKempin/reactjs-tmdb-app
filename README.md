@@ -23,8 +23,9 @@ Key tools used in this ReactJS project are:
 If you would like to download the code and try it for yourself:
 
 1. Clone the repo: `git@github.com:SKempin/reactjs-tmdb-app.git`
+2. `cd reactjs-tmdb-app`
 2. Install packages: `npm install`
-3. Build project and launch: `gulp`
+3. Build project and launch: `gulp watch`
 4. Open your browser at: `http://localhost:9000`
 
 ## Author

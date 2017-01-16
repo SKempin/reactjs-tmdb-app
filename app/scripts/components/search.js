@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 const Component = React.Component;
+const TMDBLogo = 'https://www.themoviedb.org/assets/static_cache/27b65cb40d26f78354a4ac5abf87b2be/images/v4/logos/powered-by-rectangle-green.svg';
 
 class SearchBox extends Component {
 
@@ -14,7 +15,7 @@ class SearchBox extends Component {
         <div className="row">
 
           <div className="col-xs-12 col-sm-6 col-lg-5">
-            <a href="./" title="ReactJS Movie Search"><img src="../../images/tmdb-logo.png" className="logo" alt="The Movie Database" /></a>
+            <a href="./" title="ReactJS TMDb Movie Search"><img src={TMDBLogo} className="logo" alt="The Movie Database" /></a>
           </div>
           <div className="col-xs-12 col-sm-6 col-lg-7">
             <form className="searchbox">
