@@ -18,7 +18,7 @@ class Card extends Component {
           productionCountriesList = nestedDataToString(productionCountries),
           noData = '-',
           genresList = nestedDataToString(genres);
-          backdropIMG = 'http://image.tmdb.org/t/p/w1280' + data.backdrop;
+          backdropIMG = 'http://image.tmdb.org/t/p/original' + data.backdrop;
 
       // conditional statements for no data
        if (data.vote === 'undefined' || data.vote === 0) {
