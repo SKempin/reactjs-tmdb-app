@@ -1,7 +1,7 @@
 /* card */
 .cardcont {
-    background:rgba(0, 0, 0, 0.85);
-    border-radius: 3px;
+  border-radius: 3px;
+  background: rgba(0, 0, 0, 0.85);
 }
 
 /* poster */
@@ -18,9 +18,9 @@
   color: $lightGrey;
 
   h1 {
-    font-family: $lato;
+    text-transform: uppercase;
     font-weight: bold;
-    text-transform: uppercase;;
+    font-family: $lato;
   }
 
   .additional-details {
@@ -48,20 +48,20 @@
   }
 
   .meta-data {
-    color: $limeGreen;
     display: block;
+    color: $limeGreen;
     font-size: 1.6em;
     line-height: 1.1em;
   }
 }
 
 .tagline {
-  color: $limeGreen;
   display: block;
-  font-family: $oswald;
+  padding-bottom: 0.25em;
+  color: $limeGreen;
   font-size: 1.3em;
+  font-family: $oswald;
 }
-
 
 /* Breakpoints */
 
