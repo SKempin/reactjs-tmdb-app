@@ -28,6 +28,14 @@ If you would like to download the code and try it for yourself:
 3. Build project and launch: `gulp watch`
 4. Open your browser at: `http://localhost:9000`
 
+## Browser Support
+This project makes usage of the Fetch API, with a polyfill for older browsers.
+
+- Chrome
+- Firefox
+- Safari 6.1+
+- Internet Explorer 10+
+
 ## Author
 [Stephen Kempin] (http://www.stephenkempin.co.uk)
 

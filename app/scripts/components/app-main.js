@@ -1,5 +1,4 @@
 import React from 'react';
-// import ReactDOM from 'react-dom';
 import SearchBox from './search';
 import Card from './card';
 const Component = React.Component;
