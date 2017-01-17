@@ -29,7 +29,7 @@ If you would like to download the code and try it for yourself:
 4. Open your browser at: `http://localhost:9000`
 
 ## Browser Support
-This project makes usage of the Fetch API, with a polyfill for older browsers.
+This project makes usage of the Fetch API, utilising a polyfill for older browsers.
 
 - Chrome
 - Firefox
