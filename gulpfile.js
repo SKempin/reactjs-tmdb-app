@@ -116,7 +116,7 @@ gulp.task('copy-docs', function() {
 
 gulp.task('minify', ['minify:js', 'minify:css']);
 
-gulp.task('clean', del.bind(null, 'dist'));
+gulp.task('clean', del.bind(null, ['dist', 'docs']));
 
 gulp.task('bundle', ['html', 'styles', 'scripts', 'images', 'fonts', 'extras']);
 
