@@ -35,6 +35,7 @@ This project makes usage of the Fetch API, with a polyfill for older browsers.
 - Firefox
 - Safari 6.1+
 - Internet Explorer 10+
+- Edge 14+
 
 ## Author
 [Stephen Kempin] (http://www.stephenkempin.co.uk)
