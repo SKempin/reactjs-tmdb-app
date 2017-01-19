@@ -9,7 +9,7 @@ class Card extends Component {
   render() {
     let data = this.props.data
       // if movie ID found, then...
-      var posterIMG = 'http://image.tmdb.org/t/p/w500' + data.poster,
+      var posterIMG = 'https://image.tmdb.org/t/p/w500' + data.poster,
           production = data.production,
           productionCountries = data.production_countries,
           genres = data.genre,
@@ -18,7 +18,7 @@ class Card extends Component {
           productionCountriesList = nestedDataToString(productionCountries),
           noData = '-',
           genresList = nestedDataToString(genres);
-          backdropIMG = 'http://image.tmdb.org/t/p/original' + data.backdrop;
+          backdropIMG = 'https://image.tmdb.org/t/p/original' + data.backdrop;
 
       // conditional statements for no data
        if (data.vote === 'undefined' || data.vote === 0) {
