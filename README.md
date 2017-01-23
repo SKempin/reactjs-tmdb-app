@@ -33,8 +33,8 @@ If you would like to download the code and try it for yourself:
 ## Browser Support
 This project makes usage of the Fetch API, utilising a polyfill for older browsers.
 
-- Chrome
-- Firefox
+- Chrome 42+
+- Firefox 39+
 - Safari 10+
 - Internet Explorer 11+
 - Edge 14+
