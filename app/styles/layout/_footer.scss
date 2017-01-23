@@ -17,11 +17,11 @@ footer {
   }
   a {
     color: darken($midGrey, 30);
-    &:hover {
+    transition:.7s;
+    padding: 8px;
+    &:hover, &:active {
       color:$limeGreen;
-      // animation: moveinUp ease-in 1.4s;
-      // animation: fadein ease-out 1.4s;
-
+      transition:.7s;
     }
   }
 }
