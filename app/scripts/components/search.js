@@ -7,8 +7,7 @@ class SearchBox extends Component {
 
   handleChange(event) {
     event.target.select();
-  // this.setState({value: event.target.select()});
-}
+  }
   render() {
     return (
       <div className="col-xs-12 search-container nopadding">
