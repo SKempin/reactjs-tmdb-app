@@ -58,7 +58,7 @@ class App extends Component {
     this.fetchApi(url)
 
     //========================= BLOODHOUND ==============================//
-    var suggests = new Bloodhound({
+    let suggests = new Bloodhound({
       datumTokenizer: function(datum) {
         return Bloodhound.tokenizers.whitespace(datum.value);
       },

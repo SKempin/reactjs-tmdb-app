@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-var numeral = require('numeral');
+let numeral = require('numeral');
 const Component = React.Component;
-var backdropIMG;
+let backdropIMG;
 
 class Card extends Component {
 
   render() {
     let data = this.props.data
       // if movie ID found, then...
-      var posterIMG = 'https://image.tmdb.org/t/p/w500' + data.poster,
+      let posterIMG = 'https://image.tmdb.org/t/p/w500' + data.poster,
           production = data.production,
           productionCountries = data.production_countries,
           genres = data.genre,
@@ -65,7 +65,7 @@ class Card extends Component {
 }
 
 function nestedDataToString(nestedData) {
-  var nestedArray = [],
+  let nestedArray = [],
     resultString;
   $.each(nestedData, function(i, item) {
     nestedArray.push(item.name);
