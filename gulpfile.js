@@ -7,6 +7,7 @@ var del = require('del');
 var browserify = require('browserify');
 var watchify = require('watchify');
 var source = require('vinyl-source-stream');
+var sass = require('gulp-sass');
 
 var bundler = {
     w: null,
@@ -33,12 +34,9 @@ var bundler = {
 };
 
 gulp.task('styles', function() {
-    return $.rubySass('app/styles/main.scss', {
-            style: 'expanded',
-            precision: 10,
-            loadPath: ['app/bower_components']
-        })
-        .on('error', $.util.log.bind($.util, 'Sass Error'))
+      return gulp.src('app/styles/main.scss')
+        .pipe(sass({})
+        .on('error', sass.logError))
         .pipe($.autoprefixer('last 1 version'))
         .pipe(gulp.dest('dist/styles'))
         .pipe($.size());
