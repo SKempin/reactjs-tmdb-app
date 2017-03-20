@@ -50,10 +50,8 @@ class Card extends Component {
               </div>
             </div>
           </div>
-
           <div className="poster-container nopadding col-xs-12 col-md-4 pull-md-8 col-lg-5 pull-lg-7 ">
             <img id="postertest" className='poster' src={posterIMG}/>
-
           </div>
         </div>
       )
@@ -62,12 +60,13 @@ class Card extends Component {
     document.body.style.backgroundImage = 'url(' + backdropIMG + ')';
   }
 }
+
+
 function nestedDataToString(nestedData) {
   let nestedArray = [],
-    resultString;
-  $.each(nestedData, function(i, item) {
+      resultString;
+  nestedArray.forEach(function(item, i){
     nestedArray.push(item.name);
-
   });
   resultString = nestedArray.join(', '); // array to string
   return resultString;
