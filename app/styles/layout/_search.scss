@@ -29,7 +29,7 @@
       border-bottom: solid 1px white;
 
       .form-control {
-        animation: fadein ease-in 0.8s;
+        animation: fadein ease-in 0.5s;
         border: none;
       }
 
@@ -48,7 +48,7 @@
 }
 // dropdown menu container
 .tt-dropdown-menu {
-  animation: fadein ease-out 0.8s;
+  animation: fadein ease-out 0.5s;
   min-width: 100%;
   margin-top: 2px;
   padding: 5px 0;

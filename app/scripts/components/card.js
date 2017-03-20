@@ -1,7 +1,6 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 let numeral = require('numeral');
-const Component = React.Component;
 let backdropIMG;
 
 class Card extends Component {
@@ -63,15 +62,14 @@ class Card extends Component {
     document.body.style.backgroundImage = 'url(' + backdropIMG + ')';
   }
 }
-
 function nestedDataToString(nestedData) {
   let nestedArray = [],
     resultString;
   $.each(nestedData, function(i, item) {
     nestedArray.push(item.name);
+
   });
   resultString = nestedArray.join(', '); // array to string
   return resultString;
 };
-
 module.exports = Card;
