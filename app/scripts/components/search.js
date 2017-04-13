@@ -17,9 +17,9 @@ class SearchBox extends Component {
           </div>
           <div className="col-xs-12 col-sm-6 col-lg-7">
             <form className="searchbox">
-              <label>
+              {/* <label> */}
                 <input ref="search suggestion" onClick={this.handleChange} className="searchbox__input typeahead form-control" type="text" placeholder="Search Movie Title..." id="q" />
-              </label>
+              {/* </label> */}
               </form>
           </div>
         </div>
