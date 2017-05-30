@@ -8,6 +8,9 @@ class Card extends Component {
   render() {
     let data = this.props.data
       // if movie ID found, then...
+
+
+
       let posterIMG = 'https://image.tmdb.org/t/p/w500' + data.poster,
           production = data.production,
           productionCountries = data.production_countries,
@@ -18,6 +21,8 @@ class Card extends Component {
           noData = '-',
           genresList = nestedDataToString(genres);
           backdropIMG = 'https://image.tmdb.org/t/p/original' + data.backdrop;
+
+
 
       // conditional statements for no data
        if (data.vote === 'undefined' || data.vote === 0) {
@@ -32,11 +37,18 @@ class Card extends Component {
            totalRevenue = numeral(data.revenue).format('($0,0)');
          };
 
+      if(data.poster== null){
+        posterIMG = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSols5HZxlQWyS9JY5d3_L9imbk0LiziHiyDtMZLHt_UNzoYUXs2g';
+      }
+
+
+
       return (
         <div className="col-xs-12 cardcont nopadding">
 
           <div className="meta-data-container col-xs-12 col-md-8 push-md-4 col-lg-7 push-lg-5">
             <h1>{data.original_title}</h1>
+
             <span className="tagline">{data.tagline}</span>
             <p>{data.overview}</p>
             <div className="additional-details">
