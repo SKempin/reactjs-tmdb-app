@@ -40,6 +40,9 @@ This project makes usage of the Fetch API, utilising a polyfill for older browse
 - Internet Explorer 11+ (with polyfill)
 - Edge 14+
 
+## Node.js
+Supports LTS version (v6).
+
 ## Author
 [Stephen Kempin](http://www.stephenkempin.co.uk)
 
