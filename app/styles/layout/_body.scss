@@ -16,6 +16,7 @@ body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.85) 15%, rgba(0, 0, 0, 0.2) 40%, rgba(0, 0, 0, 1) 90%);
     background-attachment: fixed;
     margin:0;
+    height: 100vh; // for full browser height and no gradient break
 }
 
 #app {
