@@ -49,6 +49,7 @@ Supports LTS version (v6).
 
 ## Author
 [Stephen Kempin](https://www.stephenkempin.co.uk)
+
 [SK-UK Google Play Store](https://play.google.com/store/apps/developer?id=SK+-+UK)
 
 ## License
