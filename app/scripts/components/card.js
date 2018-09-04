@@ -77,9 +77,11 @@ class Card extends Component {
 function nestedDataToString(nestedData) {
   let nestedArray = [],
       resultString;
-  nestedArray.forEach(function(item, i){
-    nestedArray.push(item.name);
-  });
+  if(nestedData !== undefined){
+    nestedData.forEach(function(item){
+      nestedArray.push(item.name);
+    });
+  }
   resultString = nestedArray.join(', '); // array to string
   return resultString;
 };
