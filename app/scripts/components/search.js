@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
-const TMDBLogo = "../images/tmdb.svg";
+const TMDBLogo = "./images/tmdb.svg";
 
 class SearchBox extends Component {
   handleChange(event) {
