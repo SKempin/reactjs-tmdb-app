@@ -11,7 +11,11 @@ class SearchBox extends Component {
       <div className="col-xs-12 search-container nopadding">
         <div className="row">
           <div className="col-xs-12 col-sm-6 col-lg-5">
-            <a href="./" title="ReactJS TMDb Movie Search">
+            <a
+              href="./"
+              title="ReactJS TMDb Movie Search"
+              onclick="ga('send', 'event', 'link', 'internal', 'TMDB logo')"
+            >
               <img src={TMDBLogo} className="logo" alt="The Movie Database" />
             </a>
           </div>
