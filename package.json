@@ -1,6 +1,13 @@
 {
   "name": "reactjs-tmdb-app",
   "version": "0.0.5",
+  "author": "Stephen Kempin (https://stephenkempin.co.uk/)",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "typeahead",
+    "tmdb"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/SKempin/reactjs-tmdb-app.git"
@@ -46,7 +53,5 @@
     "transform": [
       "babelify"
     ]
-  },
-  "author": "Stephen Kempin <contact@stephenkempin.co.uk>",
-  "license": "MIT"
+  }
 }
