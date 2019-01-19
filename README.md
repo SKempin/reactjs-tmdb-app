@@ -52,6 +52,12 @@ Supports LTS version (v6).
 
 [SK-UK Google Play Store](https://play.google.com/store/apps/developer?id=SK+-+UK)
 
+## Donate :coffee:
+
+If you like this project and wish to say to say thanks - I'm always open to a coffee!
+
+<a href="https://www.buymeacoffee.com/oru9CZh" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/black_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+
 ## License
 [MIT](https://github.com/SKempin/reactjs-tmdb-app/blob/master/LICENCE)
 
